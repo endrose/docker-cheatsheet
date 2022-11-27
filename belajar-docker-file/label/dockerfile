@@ -1,0 +1,9 @@
+FROM alpine:3
+
+LABEL autor="Endrose"
+LABEL company="Dokumentasi Channel" website="http://www.endrose.site.com/"
+
+RUN mdir hello
+RUN echo "Hello World" > "hello/world.txt"
+
+CMD cat "hello/world.txt"

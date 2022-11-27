@@ -1,0 +1,6 @@
+# 1 file yang di ignore
+text/*.log
+
+
+# 1 folder yang di ignore
+text/temp

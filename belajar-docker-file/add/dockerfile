@@ -1,0 +1,10 @@
+FROM alpine:3
+
+RUN mkdir hello
+
+# mengcopy semua file bereksetensi .txt ke dalam folder hello
+# bisa di cek pattern golang namanya match pattern
+ADD text/*.txt hello
+
+CMD cat "hello.world.txt"
+
